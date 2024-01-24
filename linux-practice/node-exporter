@@ -1,0 +1,27 @@
+    1  history
+    2  wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
+    3  ls
+    4  tar xvf node_exporter-1.3.1.linux-amd64.tar.gz 
+    5  ls
+    6  cd node_exporter-1.3.1.linux-amd64/
+    7  ls
+    8  mv node_exporter /usr/local/bin/
+    9  sudo mv node_exporter /usr/local/bin/
+   10  cd ../
+   11  rm -rf node_exporter-1.3.1.linux-amd64
+   12  ls
+   13  sudo useradd --shell /bin/false node_exporter
+   14  ip node
+   15  ip
+   16  id
+   17  group node
+   18  groups
+   19  groups node_exporter 
+   20  ls -l /usr/local/bin/node_exporter 
+   21  sudo chown node_exporter:node_exporter /usr/local/bin/node_exporter 
+   22  sudo vim /etc/systemd/system/node_exporter.service
+   23  sudo systemctl daemon-reload 
+   24  sudo systemctl enable node_exporter.service 
+   25  sudo systemctl start node_exporter.service 
+   26  sudo systemctl status node_exporter.service 
+   
