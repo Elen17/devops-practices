@@ -2,23 +2,19 @@
 
 # Node exporter installation notes
 
- Open file node-exporter under linux-practice folder
- Step by step exec commands
- After starting the service open browser under URL http://localhost:9100
+ Execute node-exporter.sh script under linux-practice folder
+ After succesfully executing script open browser under URL http://localhost:9100
 
-# Prometheus installation notes
-
- Open file prometheus under linux-practice folder
- Step by step exec commands
- After starting the service open browser under URL http://localhost:9090
+# Prometheus installation note
+ Execute prometheus.sh script under linux-practice folder
+ After succesfully executing script open browser under URL http://localhost:9090
 
 
 # Grafana installation notes
  
- Open file grafana under linux-practice folder
- Step by step exec commands
- After starting the service open browser under URL http://localhost:3000
+ Execute grafana.sh script under linux-practice folder
+ After succesfully executing script open browser under URL http://localhost:3000
  Login to the system: username=admin password=admin
- After logging in apply datasets and create your custom dashboar 
+ After logging in apply datasets and create your custom dashboard 
 
  
